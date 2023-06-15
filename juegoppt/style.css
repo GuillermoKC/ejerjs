@@ -1,0 +1,24 @@
+#marcador{
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    width: 22vh;
+}
+.buttonp{
+    width: 10vh;
+    height: 10vw;
+    margin: 1vh;
+    font-size: 40px;
+}
+.buttont{
+    width: 10vw;
+    height: 10vh;
+    margin: 1vh;
+    font-size: 40px;
+}
+.buttonm{
+    width: 10vh;
+    height: 10vw;
+    margin: 1vh;
+    font-size: 40px;
+}

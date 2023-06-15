@@ -1,4 +1,4 @@
 const miArray = ["🍕", "🍕", "🍍", "🍕", "🍕"];
-const miNuevoArray = miArray.filter(elemento => elemento !== "🍍");
+const miNuevoArray = miArray.filter((elemento) => elemento !== "🍍");
 
-console.log(miNuevoArray); 
+console.log(miNuevoArray);

@@ -8,4 +8,5 @@ const miNuevoArray = miArray.map(elemento => {
   }
 });
 
+
 console.log(miNuevoArray); 
