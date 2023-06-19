@@ -7,30 +7,30 @@
     <title>Document</title>
 </head>
 <body>
+    <h1> 💓 Arraid Emotes 💓 </h1>
     <div>
-    <form>
-        <fieldset>
+    <form class="formañadir">
+        <fieldset class="fliedsheta">
             <legend>Add Item</legend>
-            <input onclick=""  type="button" value="push"> 
-            <input onclick=""  type="button" value="unshift"> 
-            <input onclick=""  type="button" value="insert at">
-            <input   min="0" type="number">
+            <input class="buttona"  onclick="agregarEmojipush()" type="button" value="push"> 
+            <input class="buttona"  onclick="agregarEmojiunshift()"  type="button" value="unshift"> 
+            <input class="buttona"  onclick="agregarEmojiat()" type="button" value="insert at">
+            <input id="numeroInput" class="numa"  min="0" value="0" type="number">
           </fieldset>
     </form>
-    <form>
-        <fieldset>
+    <form class="formquitar">
+        <fieldset class="fliedshetq">
             <legend>Remove Item</legend>
-            <input onclick="" type="button" value="pop"> 
-            <input onclick="" type="button" value="shift"> 
-            <input onclick="" type="button" value="remove at">
-            <input min="0" type="number">
+            <input class="buttonq" onclick="quitarEmojipop()" type="button" value="pop"> 
+            <input class="buttonq" onclick="quitarEmojishift()" type="button" value="shift"> 
+            <input class="buttonq" onclick="quitarEmojiat()" type="button" value="remove at">
+            <input id="numeroInputq" class="numq" min="0" value="0" type="number">
           </fieldset>
     </form>
 </div>
-    <div class="pizarra">
-
+    <div class="container">
+    <div class="emojidiv" id="pizarra">[ ]</div>
     </div>
-    
     <script src="main.js"></script>
 
 </body>

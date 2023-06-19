@@ -39,7 +39,7 @@ function jugar(opcionUsuario) {
   var historialHTML = document.getElementById('historial');
   var historialTexto = '';
   for (var i = 0; i < historial.length; i++) {
-    historialTexto += '<tr><td>Ronda ' + (i + 1) + '</td><td>' + historial[i].ganador + '</td><td>' + historial[i].usuario + '</td><td>' + historial[i].computadora + '</td></tr><br>';
+    historialTexto += '<tr><td>Ronda ' + (i + 1) + '</td><td>' + historial[i].ganador + '</td><td>' + historial[i].usuario + 'VS'+'</td><td>' + historial[i].computadora + '</td></tr><br>';
   }
   historialHTML.innerHTML = historialTexto;
 
