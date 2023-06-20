@@ -7,11 +7,13 @@
     <title>CartaJoker</title>
 </head>
 <body> 
-    <h1>Cartas</h1>
-
+    <h1>🎴♠ Cartas ♠🎴</h1>
     <div id="miDiv">
-        <img id="miImagen" src="card-back.png" alt="Imagen 1" />
+        <img id="miImagen" src="card-back.png" alt="Imagen original" onmouseover="cambiarImagen('card-front.png')" onmouseout="restaurarImagen('card-back.png')">
+        <img id="miImagen2" src="card-back.png" alt="Imagen original" onmouseover="cambiarImagen2('card-frontquenn.png')" onmouseout="restaurarImagen2('card-back.png')">
+        <img id="miImagen3" src="card-back.png" alt="Imagen original" onmouseover="cambiarImagen3('card-frontking.png')" onmouseout="restaurarImagen3('card-back.png')">
       </div>
+      
     <script src="main.js"></script>
 </body>
 </html>

@@ -1,0 +1,44 @@
+h1{
+    color: wheat;
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    background-color: black;
+}
+.containerint {
+    display: flex;
+    justify-content: end;
+    width: 100vh;
+    height: max-content;
+  }
+  .containerbom{
+    display: flex;
+    justify-content: center;
+    width: 70vh;
+    height: max-content;
+    margin: 0%;
+  }
+  .controlzomm{
+    color: white;
+    background-color: red;
+    font-size: 20px;
+  }
+  .containerzyl{
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    width: 20vh;
+    height: max-content;
+  }
+
+  #bombila {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  .controlzomm {
+    margin-bottom: 10px;
+    width: max-content;
+  }

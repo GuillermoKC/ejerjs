@@ -1,23 +1,27 @@
+function cambiarImagen(nuevaImagen) {
+  var imagen = document.getElementById('miImagen');
+  imagen.src = nuevaImagen;
+}
 
-var div = document.getElementById("miDiv");
-var imagen = document.getElementById("miImagen");
-var estado = 1;
+function restaurarImagen(imagenOriginal) {
+  var imagen = document.getElementById('miImagen');
+  imagen.src = imagenOriginal;
+}
+function cambiarImagen2(nuevaImagen) {
+  var imagen = document.getElementById('miImagen2');
+  imagen.src = nuevaImagen;
+}
 
-div.addEventListener("mouseover", function() {
-  if (estado === 1) {
-    imagen.src = "card-back.png";
-    estado = 2;
-  } else {
-    imagen.src = "card-front.png";
-    estado = 1;
-  }
-});
+function restaurarImagen2(imagenOriginal) {
+  var imagen = document.getElementById('miImagen2');
+  imagen.src = imagenOriginal;
+}
+function cambiarImagen3(nuevaImagen) {
+  var imagen = document.getElementById('miImagen3');
+  imagen.src = nuevaImagen;
+}
 
-
-div.addEventListener("mouseout", function() {
-  if (estado === 1) {
-    imagen.src = "card-back.png";
-  } else {
-    imagen.src = "card-front.png";
-  }
-});
+function restaurarImagen3(imagenOriginal) {
+  var imagen = document.getElementById('miImagen3');
+  imagen.src = imagenOriginal;
+}
