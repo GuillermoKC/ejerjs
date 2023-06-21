@@ -1,0 +1,15 @@
+.barra-vida {
+    width: 300px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .barra-vida .progreso {
+    height: 100%;
+    background-color: #4caf50;
+    width: 100%;
+    transition: width 0.3s ease-in-out;
+  }
