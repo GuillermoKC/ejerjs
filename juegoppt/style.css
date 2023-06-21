@@ -6,25 +6,25 @@ body{
     font-size: 30px;
     background-color: red;
     color: white;
-    width: 24vh;
+    width: 30vh;
 }
 .buttonp{
     width: 5vw;
     height: 10vh;
     margin: 1vh;
-    font-size: 4vh;
+    font-size: 30px;
 }
 .buttont{
     width: 5vw;
     height: 10vh;
     margin: 1vh;
-    font-size: 40px;
+    font-size: 30px;
 }
 .buttonm{
     width: 5vw;
     height: 10vh;
     margin: 1vh;
-    font-size: 40px;
+    font-size: 30px;
 }
 #resultado-final{
     border: 4px solid #000;
