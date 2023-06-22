@@ -7,13 +7,21 @@ body {
 
   h1{
     font-family: 'DS Arabic', sans-serif;                                               
-    font-size: 50px;
     color: goldenrod;
     text-align: center;
     text-shadow: 1px 1px 1px black;
     margin: -2px;
   }
-  .wclick{
+  .t1{
+    font-size: 40px;
+  }
+  .t2{
+    font-size: 30px;
+  }
+  .t3{
+    font-size: 65px;
+  }
+  #wclick{
     background-image: url('images/2.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,7 +34,7 @@ body {
     width: 15vh;
     margin: 2vh;
   }
-  .aclick{
+  #aclick{
     background-image: url('images/2.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +47,7 @@ body {
     width: 15vh;
     margin: 2vh;
   }
-  .dclick{
+  #dclick{
     background-image: url('images/2.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +60,7 @@ body {
     width: 15vh;
     margin: 2vh;
   }
-  .sclick{
+  #sclick{
     background-image: url('images/2.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -65,7 +73,59 @@ body {
     width: 15vh;
     margin: 2vh;
   }
-  .eclick{
+  #eclick{
+    background-image: url('images/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DS Arabic', sans-serif;                                               
+    font-size: 40px;
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border: 3px solid goldenrod;
+    width: 15vh;
+    margin: 2vh;
+  }
+  #qclick{
+    background-image: url('images/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DS Arabic', sans-serif;                                               
+    font-size: 40px;
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border: 3px solid goldenrod;
+    width: 15vh;
+    margin: 2vh;
+  }
+  #rclick{
+    background-image: url('images/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DS Arabic', sans-serif;                                               
+    font-size: 40px;
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border: 3px solid goldenrod;
+    width: 15vh;
+    margin: 2vh;
+  }
+  #fclick{
+    background-image: url('images/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'DS Arabic', sans-serif;                                               
+    font-size: 40px;
+    color: goldenrod;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    border: 3px solid goldenrod;
+    width: 15vh;
+    margin: 2vh;
+  }
+  #gclick{
     background-image: url('images/2.webp');
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,3 +151,21 @@ body {
     width: 20vh;
     height: max-content;
   }
+  @keyframes clickAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animacion {
+    animation-duration: 0.5s;
+    animation-name: clickAnimation;
+    animation-timing-function: linear;
+  }
+  

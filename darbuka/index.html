@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,63 @@
   <link href="https://fonts.cdnfonts.com/css/nastaliq" rel="stylesheet">
   <title>darbuka</title>
 </head>
+
 <body>
-<h1>Welcome</h1>
-<h1>to</h1>
-<h1>Darbuka Sounds</h1>
-<div class="containerimg">
-  <div class="containerver">
-      <div class="wclick">W <br> sound</div>
-      <div class="aclick">A <br> sound</div>
-      <div class="dclick">D <br> sound</div>
-      <div class="sclick">S <br> sound</div>
-      <div class="eclick">E <br> sound</div>
+  <h1 class="t1">Welcome</h1>
+  <h1 class="t2">to</h1>
+  <h1 class="t3">Darbuka Sounds</h1>
+  <div class="containerimg">
+    <div class="containerver">
+      <div id="eclick"  onclick="reproducirSonidoE() + aplicarAnimacionE()">E <br> sound
+        <audio id="sonidodarkutaS">
+          <source src="./sounds/Darbuka_66_76_SP.mp3" type="audio/mpeg">
+      </div>
+      </div>
+    <div class="containerver">
+      <div id="wclick" onclick="reproducirSonidoW() + aplicarAnimacionW()">W <br> soun
+        <audio id="sonidodarkutaW">
+          <source src="./sounds/Darbuka_06_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="aclick" onclick="reproducirSonidoA() + aplicarAnimacionA()">A <br> sound
+        <audio id="sonidodarkutaA">
+          <source src="./sounds/Darbuka_18_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="dclick" onclick="reproducirSonidoD() + aplicarAnimacionD()">D <br> sound
+        <audio id="sonidodarkutaD">
+          <source src="./sounds/Darbuka_42_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="sclick"  onclick="reproducirSonidoS() + aplicarAnimacionS()">S <br> sound
+        <audio id="sonidodarkutaS">
+          <source src="./sounds/Darbuka_48_76_SP.mp3" type="audio/mpeg">
+      </div>
+
+
+    </div>
+    <div class="containerver">
+      <div id="qclick" onclick="reproducirSonidoQ() + aplicarAnimacionQ()">Q <br> soun
+        <audio id="sonidodarkutaQ">
+          <source src="./sounds/Darbuka_105_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="rclick" onclick="reproducirSonidoR() + aplicarAnimacionR()">R <br> sound
+        <audio id="sonidodarkutaR">
+          <source src="./sounds/Darbuka_118_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="fclick" onclick="reproducirSonidoF() + aplicarAnimacionF()">F <br> sound
+        <audio id="sonidodarkutaF">
+          <source src="./sounds/Darbuka_130_76_SP.mp3" type="audio/mpeg">
+          </audio>
+      </div>
+      <div id="gclick"  onclick="reproducirSonidoG() + aplicarAnimacionG()">G <br> sound
+        <audio id="sonidodarkutaG">
+          <source src="./sounds/Darbuka_159_76_SP.mp3" type="audio/mpeg">
+      </div>
   </div>
-  
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
